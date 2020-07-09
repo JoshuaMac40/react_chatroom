@@ -1,0 +1,22 @@
+version: '3'
+services:
+  frontend:
+    container_name: chat_app
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: joshua_mac/chat_app
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/usr/src/app
+  backend:
+    container_name: chat_app_server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: joshua_mac/chat_app
+    ports:
+      - '3030:3030'
+    volumes:
+      - ./server:/server
