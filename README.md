@@ -1,11 +1,11 @@
 to run this app
 
-# clone this repo 
+#clone this repo 
 
-# split the terminal 
+#split the terminal 
 
-# go to client folder and enter npm i in terminal
+#go to client folder and enter npm i in terminal
 
-# do the same in  server folder
+#do the same in  server folder
 
-# npm start in both terminals 
+#npm start in both terminals 
